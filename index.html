@@ -57,6 +57,22 @@
   <link rel="shortcut icon" type="image/x-icon" href="">
 </head>
 <body>
+
+
+
+<script>
+    // Example fetch in your static site
+    fetch('/api/getM3U8?channel=https://live-cdn.tsports.com/live-02/index.m3u8')
+      .then(response => response.json())
+      .then(data => {
+        // Process the M3U8 data
+        console.log(data);
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+
+
+
   <div id="main">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
