@@ -35,6 +35,6 @@ module.exports = async (req, res) => {
   function getDynamicCookie(channelId) {
     // Your logic to dynamically set the cookie based on the channel ID
     // For example, fetching from a database or an API
-    return 'your_dynamic_cookie_here';
+    return 'Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9saXZlLWNkbi50c3BvcnRzLmNvbS8:Expires=1708504077:KeyName=tsports-ed25519-01:Signature=-na1Ohj9p5fsgo_6DeLuXKTHwBsKNljwqhIfGx5TvRri7xqxPiIP4QVFo-Dbdi6u2ZzKjrnR6w0GX25kLq23CQ';
   }
 };
